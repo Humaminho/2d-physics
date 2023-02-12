@@ -1,0 +1,19 @@
+{
+  "name": "2d-physics",
+  "version": "1.0.0",
+  "description": "<img alt=\"Matter.js\" src=\"https://brm.io/matter-js/img/matter-js.svg\" width=\"300\">",
+  "main": "matter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Humaminho/2d-physics.git"
+  },
+  "author": "Humam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Humaminho/2d-physics/issues"
+  },
+  "homepage": "https://github.com/Humaminho/2d-physics#readme"
+}
