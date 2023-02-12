@@ -1,10 +1,9 @@
-// module aliases
-
 const Engine = Matter.Engine;
 const Render = Matter.Render;
 const Runner = Matter.Runner;
 const Bodies = Matter.Bodies;
 const Composite = Matter.Composite;
+
 const engine = Engine.create();
 const render = Render.create({
   element: document.body,
@@ -13,6 +12,7 @@ const render = Render.create({
 
 const maxWidth = window.innerWidth;
 const maxHeight = window.innerHeight;
+
 const boxA = Bodies.rectangle(maxWidth/2, 600, 70, 300);
 const circleA = Bodies.circle(maxWidth/2+70, 670, 40);
 const circleB = Bodies.circle(maxWidth/2-70, 670, 40);
@@ -31,13 +31,12 @@ function spawnBalls() {
   Composite.add(engine.world, [ground, circle])
 }
 
-//setInterval(spawnBalls, 500)
+setInterval(spawnBalls, 500)
 
 
 render.canvas.width = maxWidth;
 render.canvas.height = maxHeight;
+
 Render.run(render);
-
 const runner = Runner.create();
-
 Runner.run(runner, engine);
