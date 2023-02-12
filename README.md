@@ -7,4 +7,4 @@
 Experimenting with Matter.js, a 2D physics engine. 
 > (giving an excuse to play with balls)
 
-## Live demo => physx.netlify.app
+## Live demo => https://physx.netlify.app
